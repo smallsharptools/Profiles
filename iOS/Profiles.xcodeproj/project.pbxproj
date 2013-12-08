@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		262296B918552F160060C587 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262296B318552F160060C587 /* libTestFlight.a */; };
+		262296BA18552F160060C587 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 262296B318552F160060C587 /* libTestFlight.a */; };
+		262296BB18552F160060C587 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 262296B418552F160060C587 /* README.md */; };
+		262296BC18552F160060C587 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 262296B418552F160060C587 /* README.md */; };
+		262296BD18552F160060C587 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 262296B518552F160060C587 /* release_notes.md */; };
+		262296BE18552F160060C587 /* release_notes.md in Resources */ = {isa = PBXBuildFile; fileRef = 262296B518552F160060C587 /* release_notes.md */; };
 		2627E1F31854E5F7000BF00D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E11854E5F7000BF00D /* AFHTTPRequestOperation.m */; };
 		2627E1F41854E5F7000BF00D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E31854E5F7000BF00D /* AFHTTPRequestOperationManager.m */; };
 		2627E1F51854E5F7000BF00D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E51854E5F7000BF00D /* AFHTTPSessionManager.m */; };
@@ -83,6 +89,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262296B318552F160060C587 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		262296B418552F160060C587 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		262296B518552F160060C587 /* release_notes.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.md; sourceTree = "<group>"; };
+		262296B618552F160060C587 /* TestFlight+AsyncLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+AsyncLogging.h"; sourceTree = "<group>"; };
+		262296B718552F160060C587 /* TestFlight+ManualSessions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TestFlight+ManualSessions.h"; sourceTree = "<group>"; };
+		262296B818552F160060C587 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		2627E1E01854E5F7000BF00D /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = lib/AFNetworking/AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		2627E1E11854E5F7000BF00D /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = lib/AFNetworking/AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		2627E1E21854E5F7000BF00D /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = lib/AFNetworking/AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -107,7 +119,7 @@
 		2627E2001854E63E000BF00D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2627E2031854E827000BF00D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = lib/Parse/Parse.framework; sourceTree = "<group>"; };
 		2627E2051854F111000BF00D /* PRConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRConstants.h; sourceTree = "<group>"; };
-		2627E22A1854FBBB000BF00D /* Profiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2627E22A1854FBBB000BF00D /* ProfilesDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfilesDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		262D65111855103B00DFFBDE /* LIALinkedInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInApplication.h; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.h; sourceTree = "<group>"; };
 		262D65121855103B00DFFBDE /* LIALinkedInApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInApplication.m; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.m; sourceTree = "<group>"; };
 		262D65131855103B00DFFBDE /* LIALinkedInAuthorization.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LIALinkedInAuthorization.xib; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorization.xib; sourceTree = "<group>"; };
@@ -149,6 +161,7 @@
 				2627E2191854FBBB000BF00D /* libz.dylib in Frameworks */,
 				2627E21A1854FBBB000BF00D /* SystemConfiguration.framework in Frameworks */,
 				2627E21B1854FBBB000BF00D /* MobileCoreServices.framework in Frameworks */,
+				262296BA18552F160060C587 /* libTestFlight.a in Frameworks */,
 				2627E21C1854FBBB000BF00D /* Parse.framework in Frameworks */,
 				2627E21D1854FBBB000BF00D /* CoreGraphics.framework in Frameworks */,
 				2627E21E1854FBBB000BF00D /* UIKit.framework in Frameworks */,
@@ -163,6 +176,7 @@
 				2627E2011854E63E000BF00D /* libz.dylib in Frameworks */,
 				2627E1FF1854E634000BF00D /* SystemConfiguration.framework in Frameworks */,
 				2627E1FD1854E62F000BF00D /* MobileCoreServices.framework in Frameworks */,
+				262296B918552F160060C587 /* libTestFlight.a in Frameworks */,
 				2627E2041854E827000BF00D /* Parse.framework in Frameworks */,
 				265FB4B21853F0DF0037C1BA /* CoreGraphics.framework in Frameworks */,
 				265FB4B41853F0DF0037C1BA /* UIKit.framework in Frameworks */,
@@ -183,6 +197,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		262296B218552F160060C587 /* TestFlight */ = {
+			isa = PBXGroup;
+			children = (
+				262296B318552F160060C587 /* libTestFlight.a */,
+				262296B418552F160060C587 /* README.md */,
+				262296B518552F160060C587 /* release_notes.md */,
+				262296B618552F160060C587 /* TestFlight+AsyncLogging.h */,
+				262296B718552F160060C587 /* TestFlight+ManualSessions.h */,
+				262296B818552F160060C587 /* TestFlight.h */,
+			);
+			name = TestFlight;
+			path = lib/TestFlight;
+			sourceTree = "<group>";
+		};
 		2627E1DF1854E5BA000BF00D /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -242,7 +270,7 @@
 			children = (
 				265FB4AC1853F0DF0037C1BA /* Profiles.app */,
 				265FB4CD1853F0DF0037C1BA /* ProfilesTests.xctest */,
-				2627E22A1854FBBB000BF00D /* Profiles.app */,
+				2627E22A1854FBBB000BF00D /* ProfilesDev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -310,6 +338,7 @@
 		265FB4E41853F0E80037C1BA /* lib */ = {
 			isa = PBXGroup;
 			children = (
+				262296B218552F160060C587 /* TestFlight */,
 				2627E2021854E81B000BF00D /* Parse */,
 				2627E1DF1854E5BA000BF00D /* AFNetworking */,
 				265FB4E51853F1580037C1BA /* IOSLinkedInAPI */,
@@ -351,7 +380,7 @@
 			);
 			name = "Profiles Development";
 			productName = Profiles;
-			productReference = 2627E22A1854FBBB000BF00D /* Profiles.app */;
+			productReference = 2627E22A1854FBBB000BF00D /* ProfilesDev.app */;
 			productType = "com.apple.product-type.application";
 		};
 		265FB4AB1853F0DF0037C1BA /* Profiles */ = {
@@ -435,9 +464,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262296BE18552F160060C587 /* release_notes.md in Resources */,
 				262D65281855103B00DFFBDE /* 01-refresh.png in Resources */,
 				262D652A1855103B00DFFBDE /* 01-refresh@2x.png in Resources */,
 				262D65201855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */,
+				262296BC18552F160060C587 /* README.md in Resources */,
 				2627E2211854FBBB000BF00D /* Images.xcassets in Resources */,
 				2627E2231854FBBB000BF00D /* InfoPlist.strings in Resources */,
 				2627E2251854FBBB000BF00D /* Main.storyboard in Resources */,
@@ -448,9 +479,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				262296BD18552F160060C587 /* release_notes.md in Resources */,
 				265FB4C81853F0DF0037C1BA /* Images.xcassets in Resources */,
 				262D65291855103B00DFFBDE /* 01-refresh@2x.png in Resources */,
 				265FB4BA1853F0DF0037C1BA /* InfoPlist.strings in Resources */,
+				262296BB18552F160060C587 /* README.md in Resources */,
 				262D651F1855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */,
 				265FB4C31853F0DF0037C1BA /* Main.storyboard in Resources */,
 				262D65271855103B00DFFBDE /* 01-refresh.png in Resources */,
@@ -563,6 +596,7 @@
 		2627E2281854FBBB000BF00D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -581,10 +615,14 @@
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Profiles/Profiles Development-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Profiles/lib",
+					/Users/brennan/Documents/Projects/GitHub/Profiles/iOS/Profiles/lib/TestFlight,
+				);
 				OTHER_CFLAGS = "-DDEVELOPMENT=1";
-				PRODUCT_NAME = Profiles;
-				PROVISIONING_PROFILE = "80BFFCFE-6C6C-4697-B004-0320FB6D53B6";
+				PRODUCT_NAME = ProfilesDev;
+				PROVISIONING_PROFILE = "32D7C6A8-8C30-4204-A8D6-469B6F1587ED";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -592,6 +630,7 @@
 		2627E2291854FBBB000BF00D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -610,14 +649,18 @@
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/Profiles/Profiles Development-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Profiles/lib",
+					/Users/brennan/Documents/Projects/GitHub/Profiles/iOS/Profiles/lib/TestFlight,
+				);
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-DDEVELOPMENT=1",
 					"-DNDEBUG=1",
 				);
-				PRODUCT_NAME = Profiles;
-				PROVISIONING_PROFILE = "80BFFCFE-6C6C-4697-B004-0320FB6D53B6";
+				PRODUCT_NAME = ProfilesDev;
+				PROVISIONING_PROFILE = "32D7C6A8-8C30-4204-A8D6-469B6F1587ED";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -701,6 +744,7 @@
 		265FB4DF1853F0DF0037C1BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -719,9 +763,13 @@
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
 				INFOPLIST_FILE = "Profiles/Profiles-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Profiles/lib",
+					/Users/brennan/Documents/Projects/GitHub/Profiles/iOS/Profiles/lib/TestFlight,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "0661CD15-438F-4547-985B-C152CB0145D5";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -729,6 +777,7 @@
 		265FB4E01853F0DF0037C1BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -747,13 +796,17 @@
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
 				INFOPLIST_FILE = "Profiles/Profiles-Info.plist";
-				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/Profiles/lib",
+					/Users/brennan/Documents/Projects/GitHub/Profiles/iOS/Profiles/lib/TestFlight,
+				);
 				OTHER_CFLAGS = (
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"-DNDEBUG=1",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "0661CD15-438F-4547-985B-C152CB0145D5";
+				RUN_CLANG_STATIC_ANALYZER = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
