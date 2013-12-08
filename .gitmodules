@@ -1,0 +1,3 @@
+[submodule "Profiles/lib/IOSLinkedInAPI"]
+	path = Profiles/lib/IOSLinkedInAPI
+	url = https://github.com/jeyben/IOSLinkedInAPI.git
