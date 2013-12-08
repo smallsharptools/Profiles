@@ -23,17 +23,13 @@
 		2627E2081854FBBB000BF00D /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1EC1854E5F7000BF00D /* AFURLConnectionOperation.m */; };
 		2627E2091854FBBB000BF00D /* PRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4BF1853F0DF0037C1BA /* PRAppDelegate.m */; };
 		2627E20A1854FBBB000BF00D /* PRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4C51853F0DF0037C1BA /* PRViewController.m */; };
-		2627E20B1854FBBB000BF00D /* NSString+LIAEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EE1853F1650037C1BA /* NSString+LIAEncode.m */; };
 		2627E20C1854FBBB000BF00D /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1F01854E5F7000BF00D /* AFURLResponseSerialization.m */; };
 		2627E20D1854FBBB000BF00D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4BB1853F0DF0037C1BA /* main.m */; };
 		2627E20E1854FBBB000BF00D /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1EE1854E5F7000BF00D /* AFURLRequestSerialization.m */; };
 		2627E20F1854FBBB000BF00D /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1EA1854E5F7000BF00D /* AFSecurityPolicy.m */; };
 		2627E2101854FBBB000BF00D /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E11854E5F7000BF00D /* AFHTTPRequestOperation.m */; };
 		2627E2111854FBBB000BF00D /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1F21854E5F7000BF00D /* AFURLSessionManager.m */; };
-		2627E2121854FBBB000BF00D /* LIALinkedInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4E71853F1650037C1BA /* LIALinkedInApplication.m */; };
-		2627E2131854FBBB000BF00D /* LIALinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EA1853F1650037C1BA /* LIALinkedInAuthorizationViewController.m */; };
 		2627E2141854FBBB000BF00D /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E51854E5F7000BF00D /* AFHTTPSessionManager.m */; };
-		2627E2151854FBBB000BF00D /* LIALinkedInHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EC1853F1650037C1BA /* LIALinkedInHttpClient.m */; };
 		2627E2161854FBBB000BF00D /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E81854E5F7000BF00D /* AFNetworkReachabilityManager.m */; };
 		2627E2171854FBBB000BF00D /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2627E1E31854E5F7000BF00D /* AFHTTPRequestOperationManager.m */; };
 		2627E2191854FBBB000BF00D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2627E2001854E63E000BF00D /* libz.dylib */; };
@@ -44,12 +40,22 @@
 		2627E21E1854FBBB000BF00D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4B31853F0DF0037C1BA /* UIKit.framework */; };
 		2627E21F1854FBBB000BF00D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4AF1853F0DF0037C1BA /* Foundation.framework */; };
 		2627E2211854FBBB000BF00D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4C71853F0DF0037C1BA /* Images.xcassets */; };
-		2627E2221854FBBB000BF00D /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4F11853F1650037C1BA /* 01-refresh@2x.png */; };
 		2627E2231854FBBB000BF00D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4B81853F0DF0037C1BA /* InfoPlist.strings */; };
-		2627E2241854FBBB000BF00D /* LIALinkedInAuthorization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4E81853F1650037C1BA /* LIALinkedInAuthorization.xib */; };
 		2627E2251854FBBB000BF00D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4C11853F0DF0037C1BA /* Main.storyboard */; };
-		2627E2261854FBBB000BF00D /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4F01853F1650037C1BA /* 01-refresh.png */; };
-		2627E22D18550229000BF00D /* Profiles Development-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2627E22C18550229000BF00D /* Profiles Development-Info.plist */; };
+		262D651D1855103B00DFFBDE /* LIALinkedInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65121855103B00DFFBDE /* LIALinkedInApplication.m */; };
+		262D651E1855103B00DFFBDE /* LIALinkedInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65121855103B00DFFBDE /* LIALinkedInApplication.m */; };
+		262D651F1855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262D65131855103B00DFFBDE /* LIALinkedInAuthorization.xib */; };
+		262D65201855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 262D65131855103B00DFFBDE /* LIALinkedInAuthorization.xib */; };
+		262D65211855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65151855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m */; };
+		262D65221855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65151855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m */; };
+		262D65231855103B00DFFBDE /* LIALinkedInHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65171855103B00DFFBDE /* LIALinkedInHttpClient.m */; };
+		262D65241855103B00DFFBDE /* LIALinkedInHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65171855103B00DFFBDE /* LIALinkedInHttpClient.m */; };
+		262D65251855103B00DFFBDE /* NSString+LIAEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65191855103B00DFFBDE /* NSString+LIAEncode.m */; };
+		262D65261855103B00DFFBDE /* NSString+LIAEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 262D65191855103B00DFFBDE /* NSString+LIAEncode.m */; };
+		262D65271855103B00DFFBDE /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 262D651B1855103B00DFFBDE /* 01-refresh.png */; };
+		262D65281855103B00DFFBDE /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 262D651B1855103B00DFFBDE /* 01-refresh.png */; };
+		262D65291855103B00DFFBDE /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262D651C1855103B00DFFBDE /* 01-refresh@2x.png */; };
+		262D652A1855103B00DFFBDE /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 262D651C1855103B00DFFBDE /* 01-refresh@2x.png */; };
 		265FB4B01853F0DF0037C1BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4AF1853F0DF0037C1BA /* Foundation.framework */; };
 		265FB4B21853F0DF0037C1BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4B11853F0DF0037C1BA /* CoreGraphics.framework */; };
 		265FB4B41853F0DF0037C1BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4B31853F0DF0037C1BA /* UIKit.framework */; };
@@ -64,13 +70,6 @@
 		265FB4D11853F0DF0037C1BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 265FB4B31853F0DF0037C1BA /* UIKit.framework */; };
 		265FB4D91853F0DF0037C1BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4D71853F0DF0037C1BA /* InfoPlist.strings */; };
 		265FB4DB1853F0DF0037C1BA /* ProfilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4DA1853F0DF0037C1BA /* ProfilesTests.m */; };
-		265FB4F21853F1650037C1BA /* LIALinkedInApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4E71853F1650037C1BA /* LIALinkedInApplication.m */; };
-		265FB4F31853F1650037C1BA /* LIALinkedInAuthorization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4E81853F1650037C1BA /* LIALinkedInAuthorization.xib */; };
-		265FB4F41853F1650037C1BA /* LIALinkedInAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EA1853F1650037C1BA /* LIALinkedInAuthorizationViewController.m */; };
-		265FB4F51853F1650037C1BA /* LIALinkedInHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EC1853F1650037C1BA /* LIALinkedInHttpClient.m */; };
-		265FB4F61853F1650037C1BA /* NSString+LIAEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 265FB4EE1853F1650037C1BA /* NSString+LIAEncode.m */; };
-		265FB4F71853F1650037C1BA /* 01-refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4F01853F1650037C1BA /* 01-refresh.png */; };
-		265FB4F81853F1650037C1BA /* 01-refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 265FB4F11853F1650037C1BA /* 01-refresh@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,8 +107,19 @@
 		2627E2001854E63E000BF00D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2627E2031854E827000BF00D /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = lib/Parse/Parse.framework; sourceTree = "<group>"; };
 		2627E2051854F111000BF00D /* PRConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRConstants.h; sourceTree = "<group>"; };
-		2627E22A1854FBBB000BF00D /* ProfilesDevelopment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProfilesDevelopment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2627E22C18550229000BF00D /* Profiles Development-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Profiles Development-Info.plist"; sourceTree = "<group>"; };
+		2627E22A1854FBBB000BF00D /* Profiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		262D65111855103B00DFFBDE /* LIALinkedInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInApplication.h; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.h; sourceTree = "<group>"; };
+		262D65121855103B00DFFBDE /* LIALinkedInApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInApplication.m; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.m; sourceTree = "<group>"; };
+		262D65131855103B00DFFBDE /* LIALinkedInAuthorization.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LIALinkedInAuthorization.xib; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorization.xib; sourceTree = "<group>"; };
+		262D65141855103B00DFFBDE /* LIALinkedInAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInAuthorizationViewController.h; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorizationViewController.h; sourceTree = "<group>"; };
+		262D65151855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInAuthorizationViewController.m; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorizationViewController.m; sourceTree = "<group>"; };
+		262D65161855103B00DFFBDE /* LIALinkedInHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInHttpClient.h; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInHttpClient.h; sourceTree = "<group>"; };
+		262D65171855103B00DFFBDE /* LIALinkedInHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInHttpClient.m; path = lib/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInHttpClient.m; sourceTree = "<group>"; };
+		262D65181855103B00DFFBDE /* NSString+LIAEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LIAEncode.h"; path = "lib/IOSLinkedInAPI/IOSLinkedInAPI/NSString+LIAEncode.h"; sourceTree = "<group>"; };
+		262D65191855103B00DFFBDE /* NSString+LIAEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LIAEncode.m"; path = "lib/IOSLinkedInAPI/IOSLinkedInAPI/NSString+LIAEncode.m"; sourceTree = "<group>"; };
+		262D651B1855103B00DFFBDE /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
+		262D651C1855103B00DFFBDE /* 01-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh@2x.png"; sourceTree = "<group>"; };
+		262D652B185513EA00DFFBDE /* Profiles Development-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Profiles Development-Info.plist"; sourceTree = "<group>"; };
 		265FB4AC1853F0DF0037C1BA /* Profiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Profiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265FB4AF1853F0DF0037C1BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		265FB4B11853F0DF0037C1BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -129,17 +139,6 @@
 		265FB4D61853F0DF0037C1BA /* ProfilesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProfilesTests-Info.plist"; sourceTree = "<group>"; };
 		265FB4D81853F0DF0037C1BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		265FB4DA1853F0DF0037C1BA /* ProfilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfilesTests.m; sourceTree = "<group>"; };
-		265FB4E61853F1650037C1BA /* LIALinkedInApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInApplication.h; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.h"; sourceTree = "<group>"; };
-		265FB4E71853F1650037C1BA /* LIALinkedInApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInApplication.m; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInApplication.m"; sourceTree = "<group>"; };
-		265FB4E81853F1650037C1BA /* LIALinkedInAuthorization.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LIALinkedInAuthorization.xib; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorization.xib"; sourceTree = "<group>"; };
-		265FB4E91853F1650037C1BA /* LIALinkedInAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInAuthorizationViewController.h; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorizationViewController.h"; sourceTree = "<group>"; };
-		265FB4EA1853F1650037C1BA /* LIALinkedInAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInAuthorizationViewController.m; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInAuthorizationViewController.m"; sourceTree = "<group>"; };
-		265FB4EB1853F1650037C1BA /* LIALinkedInHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LIALinkedInHttpClient.h; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInHttpClient.h"; sourceTree = "<group>"; };
-		265FB4EC1853F1650037C1BA /* LIALinkedInHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LIALinkedInHttpClient.m; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/LIALinkedInHttpClient.m"; sourceTree = "<group>"; };
-		265FB4ED1853F1650037C1BA /* NSString+LIAEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LIAEncode.h"; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/NSString+LIAEncode.h"; sourceTree = "<group>"; };
-		265FB4EE1853F1650037C1BA /* NSString+LIAEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LIAEncode.m"; path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/NSString+LIAEncode.m"; sourceTree = "<group>"; };
-		265FB4F01853F1650037C1BA /* 01-refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh.png"; sourceTree = "<group>"; };
-		265FB4F11853F1650037C1BA /* 01-refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "01-refresh@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +217,16 @@
 			name = Parse;
 			sourceTree = "<group>";
 		};
+		262D651A1855103B00DFFBDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				262D651B1855103B00DFFBDE /* 01-refresh.png */,
+				262D651C1855103B00DFFBDE /* 01-refresh@2x.png */,
+			);
+			name = Resources;
+			path = lib/IOSLinkedInAPI/IOSLinkedInAPI/Resources;
+			sourceTree = "<group>";
+		};
 		265FB4A31853F0DE0037C1BA = {
 			isa = PBXGroup;
 			children = (
@@ -233,7 +242,7 @@
 			children = (
 				265FB4AC1853F0DF0037C1BA /* Profiles.app */,
 				265FB4CD1853F0DF0037C1BA /* ProfilesTests.xctest */,
-				2627E22A1854FBBB000BF00D /* ProfilesDevelopment.app */,
+				2627E22A1854FBBB000BF00D /* Profiles.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,7 +281,7 @@
 			isa = PBXGroup;
 			children = (
 				265FB4B71853F0DF0037C1BA /* Profiles-Info.plist */,
-				2627E22C18550229000BF00D /* Profiles Development-Info.plist */,
+				262D652B185513EA00DFFBDE /* Profiles Development-Info.plist */,
 				265FB4B81853F0DF0037C1BA /* InfoPlist.strings */,
 				265FB4BB1853F0DF0037C1BA /* main.m */,
 				265FB4BD1853F0DF0037C1BA /* Profiles-Prefix.pch */,
@@ -311,28 +320,18 @@
 		265FB4E51853F1580037C1BA /* IOSLinkedInAPI */ = {
 			isa = PBXGroup;
 			children = (
-				265FB4E61853F1650037C1BA /* LIALinkedInApplication.h */,
-				265FB4E71853F1650037C1BA /* LIALinkedInApplication.m */,
-				265FB4E81853F1650037C1BA /* LIALinkedInAuthorization.xib */,
-				265FB4E91853F1650037C1BA /* LIALinkedInAuthorizationViewController.h */,
-				265FB4EA1853F1650037C1BA /* LIALinkedInAuthorizationViewController.m */,
-				265FB4EB1853F1650037C1BA /* LIALinkedInHttpClient.h */,
-				265FB4EC1853F1650037C1BA /* LIALinkedInHttpClient.m */,
-				265FB4ED1853F1650037C1BA /* NSString+LIAEncode.h */,
-				265FB4EE1853F1650037C1BA /* NSString+LIAEncode.m */,
-				265FB4EF1853F1650037C1BA /* Resources */,
+				262D65111855103B00DFFBDE /* LIALinkedInApplication.h */,
+				262D65121855103B00DFFBDE /* LIALinkedInApplication.m */,
+				262D65131855103B00DFFBDE /* LIALinkedInAuthorization.xib */,
+				262D65141855103B00DFFBDE /* LIALinkedInAuthorizationViewController.h */,
+				262D65151855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m */,
+				262D65161855103B00DFFBDE /* LIALinkedInHttpClient.h */,
+				262D65171855103B00DFFBDE /* LIALinkedInHttpClient.m */,
+				262D65181855103B00DFFBDE /* NSString+LIAEncode.h */,
+				262D65191855103B00DFFBDE /* NSString+LIAEncode.m */,
+				262D651A1855103B00DFFBDE /* Resources */,
 			);
 			name = IOSLinkedInAPI;
-			sourceTree = "<group>";
-		};
-		265FB4EF1853F1650037C1BA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				265FB4F01853F1650037C1BA /* 01-refresh.png */,
-				265FB4F11853F1650037C1BA /* 01-refresh@2x.png */,
-			);
-			name = Resources;
-			path = "../../Reference Projects/IOSLinkedInAPI/IOSLinkedInAPI/Resources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,7 +351,7 @@
 			);
 			name = "Profiles Development";
 			productName = Profiles;
-			productReference = 2627E22A1854FBBB000BF00D /* ProfilesDevelopment.app */;
+			productReference = 2627E22A1854FBBB000BF00D /* Profiles.app */;
 			productType = "com.apple.product-type.application";
 		};
 		265FB4AB1853F0DF0037C1BA /* Profiles */ = {
@@ -436,13 +435,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2627E22D18550229000BF00D /* Profiles Development-Info.plist in Resources */,
+				262D65281855103B00DFFBDE /* 01-refresh.png in Resources */,
+				262D652A1855103B00DFFBDE /* 01-refresh@2x.png in Resources */,
+				262D65201855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */,
 				2627E2211854FBBB000BF00D /* Images.xcassets in Resources */,
-				2627E2221854FBBB000BF00D /* 01-refresh@2x.png in Resources */,
 				2627E2231854FBBB000BF00D /* InfoPlist.strings in Resources */,
-				2627E2241854FBBB000BF00D /* LIALinkedInAuthorization.xib in Resources */,
 				2627E2251854FBBB000BF00D /* Main.storyboard in Resources */,
-				2627E2261854FBBB000BF00D /* 01-refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,11 +449,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				265FB4C81853F0DF0037C1BA /* Images.xcassets in Resources */,
-				265FB4F81853F1650037C1BA /* 01-refresh@2x.png in Resources */,
+				262D65291855103B00DFFBDE /* 01-refresh@2x.png in Resources */,
 				265FB4BA1853F0DF0037C1BA /* InfoPlist.strings in Resources */,
-				265FB4F31853F1650037C1BA /* LIALinkedInAuthorization.xib in Resources */,
+				262D651F1855103B00DFFBDE /* LIALinkedInAuthorization.xib in Resources */,
 				265FB4C31853F0DF0037C1BA /* Main.storyboard in Resources */,
-				265FB4F71853F1650037C1BA /* 01-refresh.png in Resources */,
+				262D65271855103B00DFFBDE /* 01-refresh.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,19 +475,19 @@
 				2627E2081854FBBB000BF00D /* AFURLConnectionOperation.m in Sources */,
 				2627E2091854FBBB000BF00D /* PRAppDelegate.m in Sources */,
 				2627E20A1854FBBB000BF00D /* PRViewController.m in Sources */,
-				2627E20B1854FBBB000BF00D /* NSString+LIAEncode.m in Sources */,
 				2627E20C1854FBBB000BF00D /* AFURLResponseSerialization.m in Sources */,
 				2627E20D1854FBBB000BF00D /* main.m in Sources */,
+				262D65241855103B00DFFBDE /* LIALinkedInHttpClient.m in Sources */,
+				262D65261855103B00DFFBDE /* NSString+LIAEncode.m in Sources */,
 				2627E20E1854FBBB000BF00D /* AFURLRequestSerialization.m in Sources */,
 				2627E20F1854FBBB000BF00D /* AFSecurityPolicy.m in Sources */,
 				2627E2101854FBBB000BF00D /* AFHTTPRequestOperation.m in Sources */,
 				2627E2111854FBBB000BF00D /* AFURLSessionManager.m in Sources */,
-				2627E2121854FBBB000BF00D /* LIALinkedInApplication.m in Sources */,
-				2627E2131854FBBB000BF00D /* LIALinkedInAuthorizationViewController.m in Sources */,
 				2627E2141854FBBB000BF00D /* AFHTTPSessionManager.m in Sources */,
-				2627E2151854FBBB000BF00D /* LIALinkedInHttpClient.m in Sources */,
 				2627E2161854FBBB000BF00D /* AFNetworkReachabilityManager.m in Sources */,
+				262D651E1855103B00DFFBDE /* LIALinkedInApplication.m in Sources */,
 				2627E2171854FBBB000BF00D /* AFHTTPRequestOperationManager.m in Sources */,
+				262D65221855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,19 +498,19 @@
 				2627E1F81854E5F7000BF00D /* AFURLConnectionOperation.m in Sources */,
 				265FB4C01853F0DF0037C1BA /* PRAppDelegate.m in Sources */,
 				265FB4C61853F0DF0037C1BA /* PRViewController.m in Sources */,
-				265FB4F61853F1650037C1BA /* NSString+LIAEncode.m in Sources */,
 				2627E1FA1854E5F7000BF00D /* AFURLResponseSerialization.m in Sources */,
 				265FB4BC1853F0DF0037C1BA /* main.m in Sources */,
+				262D65231855103B00DFFBDE /* LIALinkedInHttpClient.m in Sources */,
+				262D65251855103B00DFFBDE /* NSString+LIAEncode.m in Sources */,
 				2627E1F91854E5F7000BF00D /* AFURLRequestSerialization.m in Sources */,
 				2627E1F71854E5F7000BF00D /* AFSecurityPolicy.m in Sources */,
 				2627E1F31854E5F7000BF00D /* AFHTTPRequestOperation.m in Sources */,
 				2627E1FB1854E5F7000BF00D /* AFURLSessionManager.m in Sources */,
-				265FB4F21853F1650037C1BA /* LIALinkedInApplication.m in Sources */,
-				265FB4F41853F1650037C1BA /* LIALinkedInAuthorizationViewController.m in Sources */,
 				2627E1F51854E5F7000BF00D /* AFHTTPSessionManager.m in Sources */,
-				265FB4F51853F1650037C1BA /* LIALinkedInHttpClient.m in Sources */,
 				2627E1F61854E5F7000BF00D /* AFNetworkReachabilityManager.m in Sources */,
+				262D651D1855103B00DFFBDE /* LIALinkedInApplication.m in Sources */,
 				2627E1F41854E5F7000BF00D /* AFHTTPRequestOperationManager.m in Sources */,
+				262D65211855103B00DFFBDE /* LIALinkedInAuthorizationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,11 +580,11 @@
 					"$(SRCROOT)/Profiles/lib",
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Profiles Development-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Profiles/Profiles Development-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
-				OTHER_CFLAGS = DEVELOPMENT;
-				PRODUCT_NAME = ProfilesDevelopment;
-				PROVISIONING_PROFILE = "";
+				OTHER_CFLAGS = "-DDEVELOPMENT=1";
+				PRODUCT_NAME = Profiles;
+				PROVISIONING_PROFILE = "80BFFCFE-6C6C-4697-B004-0320FB6D53B6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -611,11 +609,15 @@
 					"$(SRCROOT)/Profiles/lib",
 					"$(SRCROOT)/Profiles/lib/AFNetworking",
 				);
-				INFOPLIST_FILE = "$(SRCROOT)/Profiles Development-Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Profiles/Profiles Development-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
-				OTHER_CFLAGS = DEVELOPMENT;
-				PRODUCT_NAME = ProfilesDevelopment;
-				PROVISIONING_PROFILE = "";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DDEVELOPMENT=1",
+					"-DNDEBUG=1",
+				);
+				PRODUCT_NAME = Profiles;
+				PROVISIONING_PROFILE = "80BFFCFE-6C6C-4697-B004-0320FB6D53B6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -746,6 +748,10 @@
 				);
 				INFOPLIST_FILE = "Profiles/Profiles-Info.plist";
 				LIBRARY_SEARCH_PATHS = "$(SRCROOT)/Profiles/lib";
+				OTHER_CFLAGS = (
+					"-DNS_BLOCK_ASSERTIONS=1",
+					"-DNDEBUG=1",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
