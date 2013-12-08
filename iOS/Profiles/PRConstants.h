@@ -11,12 +11,17 @@
 
 #ifdef DEVELOPMENT
 
-#define     kBaseURLScheme          @"profilesdevapp://"
+#define     kBaseURLScheme              @"profilesdevapp://"
 
-#define     kTestFlightToken        @"CHANGE"
+#define     kTestFlightToken            @"CHANGE"
 
-#define     kParseApplicationId     @"CHANGE"
-#define     kParseAppClientKey      @"CHANGE"
+#define     kParseApplicationId         @"CHANGE"
+#define     kParseAppClientKey          @"CHANGE"
+
+#define     kLinkedInAPIKey             @"CHANGE"
+#define     kLinkedInSecretKey          @"CHANGE"
+#define     kLinkedInOAuthUserToken     @"CHANGE"
+#define     kLinkedInOAuthUserSecret    @"CHANGE"
 
 #else
 
@@ -26,6 +31,11 @@
 
 #define     kParseApplicationId     @"CHANGE"
 #define     kParseAppClientKey      @"CHANGE"
+
+#define     kLinkedInAPIKey             @"CHANGE"
+#define     kLinkedInSecretKey          @"CHANGE"
+#define     kLinkedInOAuthUserToken     @"CHANGE"
+#define     kLinkedInOAuthUserSecret    @"CHANGE"
 
 #endif
 
