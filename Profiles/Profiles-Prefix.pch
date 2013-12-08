@@ -6,11 +6,79 @@
 
 #import <Availability.h>
 
-#ifndef __IPHONE_5_0
-#warning "This project uses features only available in iOS SDK 5.0 and later."
+#if __IPHONE_OS_VERSION_MIN_REQUIRED
+#ifndef __IPHONE_6_0
+#warning "This project uses features only available in iPhone SDK 6.0 and later."
 #endif
 
 #ifdef __OBJC__
-    #import <UIKit/UIKit.h>
-    #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <MobileCoreServices/MobileCoreServices.h>
 #endif
+#else
+#ifdef __OBJC__
+#import <Cocoa/Cocoa.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CoreServices/CoreServices.h>
+#endif
+#endif
+
+// Disables log messages when debugging is turned off
+#ifndef NDEBUG
+
+#define DebugLog(message, ...) NSLog(@"%s: " message, __PRETTY_FUNCTION__, ##__VA_ARGS__)
+
+#else
+
+#define DebugLog(message, ...)
+
+#endif
+
+#ifndef NS_BLOCK_ASSERTIONS
+
+// Credit: http://sstools.co/maassert
+#define MAAssert(expression, ...) \
+do { \
+if(!(expression)) { \
+NSLog(@"Assertion failure: %s in %s on line %s:%d. %@", #expression, __func__, __FILE__, __LINE__, [NSString stringWithFormat: @"" __VA_ARGS__]); \
+abort(); \
+} \
+} while(0)
+
+#else
+
+#define MAAssert(expression, ...)
+
+#endif
+
+#define SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(v)  ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
+
+#define isiOS7OrLater floor(NSFoundationVersionNumber) > NSFoundationVersionNumber_iOS_6_1
+
+#define LOG_FRAME(label, frame) DebugLog(@"%@: %f, %f, %f, %f", label, frame.origin.x, frame.origin.y, frame.size.width, frame.size.height)
+#define LOG_SIZE(label, size) DebugLog(@"%@, %f, %f", label, size.width, size.height)
+#define LOG_POINT(label, point) DebugLog(@"%@: %f, %f", label, point.x, point.y)
+#define LOG_OFFSET(label, offset) DebugLog(@"%@: %f, %f", label, offset.x, offset.y)
+#define LOG_INSET(label, inset) DebugLog(@"%@: %f, %f, %f, %f", label, inset.top, inset.left, inset.bottom, inset.right)
+
+// Adapted to ARC from Matt Gallagher of CocoaWithLove
+// Insert into in .pch to use in a project
+#define SYNTHESIZE_SINGLETON_FOR_HEADER(classname) \
++ (classname *)sharedInstance;
+
+#define SYNTHESIZE_SINGLETON_FOR_CLASS(classname) \
+\
+static classname *sharedInstance = nil; \
+static dispatch_once_t onceToken; \
+\
++ (classname *)sharedInstance \
+{ \
+dispatch_once(&onceToken, ^{ \
+sharedInstance = [[classname alloc] init]; \
+}); \
+\
+return sharedInstance; \
+} \
+\

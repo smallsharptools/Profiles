@@ -9,6 +9,24 @@
 #ifndef Profiles_PRConstants_h
 #define Profiles_PRConstants_h
 
+#ifdef DEVELOPMENT
 
+#define     kBaseURLScheme          @"profilesdevapp://"
+
+#define     kTestFlightToken        @"CHANGE"
+
+#define     kParseApplicationId     @"CHANGE"
+#define     kParseAppClientKey      @"CHANGE"
+
+#else
+
+#define     kBaseURLScheme          @"profilesapp://"
+
+#define     kTestFlightToken        @"CHANGE"
+
+#define     kParseApplicationId     @"CHANGE"
+#define     kParseAppClientKey      @"CHANGE"
+
+#endif
 
 #endif
