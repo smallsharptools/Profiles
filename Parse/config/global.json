@@ -1,12 +1,12 @@
 {
     "applications": {
         "Profiles": {
-            "applicationId": "nWjqSp1lWlEpP7cQle8Bw1OYsmGkjd6gtRVHap94", 
-            "masterKey": "LymvSF04kLsnUYAx93OsiP6fQZJdYJFXa9ej7NKG"
+            "applicationId": "CHANGE", 
+            "masterKey": "CHANGE"
         }, 
         "Profiles Development": {
-            "applicationId": "7WlNeYxwtpgk3RFsApLNNiRMA0uP7yR6N5GPg7XS", 
-            "masterKey": "NDo12CJIak9VAzogK4mVKFGICGHQfSMkdbEySXnq"
+            "applicationId": "CHANGE", 
+            "masterKey": "CHANGE"
         }, 
         "_default": {
             "link": "Profiles Development"
